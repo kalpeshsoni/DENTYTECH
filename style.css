@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px ;
+}
+#nav-part1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav h3, i{
+    font-size: 16px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+#nav h1{
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+#nav button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+}
+#btn2{
+    background-color: orangered !important;
+    color: white;
+    border: none;
+}
+
+#main>h1
+{
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}   
+
+img {
+    height: 450px;
+    width: 380px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+img:nth-child(1) {
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+
+img:nth-child(2) {
+    transform: translate(-50%, -50%) rotate(30deg);
+}
+
+img:nth-child(3) {
+    transform: translate(-50%, -50%) rotate(30deg);
+}
+
+img:nth-child(4) {
+    transform: translate(-50%, -50%) rotate(30deg);
+}
+
+img:nth-child(5) {
+    transform: translate(-50%, -50%) rotate(25deg);
+}
+
+img:nth-child(6) {
+    transform: translate(-50%, -50%) rotate(20deg);
+}
+
+img:nth-child(7) {
+    transform: translate(-50%, -50%) rotate(15deg);
+}
+
+img:nth-child(8) {
+    transform: translate(-50%, -50%) rotate(5deg);
+}
+img.disappear {
+    transform: translate(-50%, -150%) rotate(0deg);
+    opacity: 0;
+}
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+}
