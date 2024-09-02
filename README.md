@@ -16,7 +16,7 @@ Here are some screenshots of the project:
 To run this project locally:
 
 **1.Clone the repository:**
-  git clone https://github.com/yourusername/DENTYTECH.git
+  git clone https://github.com/kalpeshsoni/DENTYTECH
 
 **2.Navigate to the project directory:**
 
